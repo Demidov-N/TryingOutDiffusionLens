@@ -1,0 +1,8 @@
+name: diffusion-lens
+channels:
+  - defaults
+dependencies:
+  - python=3.12  # Specify the Python version you want
+  - pip         # Ensure pip is installed
+  - pip:
+      - -r requirements_2024.txt  # Use pip to install from the requirements file
